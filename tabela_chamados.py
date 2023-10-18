@@ -62,7 +62,7 @@ class AplicacaoChamados:
                 
         self.label_tecnico = ttk.Label(self.root, text="Técnico Designado:")
         self.label_tecnico.pack()
-        self.combo_tecnico = ttk.Combobox(self.root, values=["Anderson", "Daniel", "Fábio", "Giovanni", "Jean", "Jonathan", "Juliano", "Leonardo", "Luis Eduardo", "Marcelo", "Marcos"])
+        self.combo_tecnico = ttk.Combobox(self.root, values=["Anderson", "Daniel", "Douglas", "Fábio", "Giovanni", "Jean", "Jonathan", "Leonardo", "Luis Eduardo", "Marcelo", "Marcos", "Vinicius"])
         self.combo_tecnico.pack()
 
         
